@@ -1,0 +1,17 @@
+.footer {
+  background-color: $bgColor;
+  color: $color;
+  &__list {
+    display: flex;
+    gap: 10px;
+  }
+  &__list-item-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__list-item-icon {
+    fill: rgb(0, 115, 255);
+    background-color: aliceblue;
+  }
+}
