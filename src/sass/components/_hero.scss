@@ -1,0 +1,12 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
+  background-color: $bgColor;
+  color: $color;
+  &__container {
+    text-align: center;
+  }
+}
