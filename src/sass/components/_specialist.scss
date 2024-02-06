@@ -1,6 +1,14 @@
-.specialist {
-  &__avatar {
-    width: 300px;
-    height: auto;
+.specialists{
+  .specialist {
+    display: flex;
+    flex-direction: row-reverse;
+    &__avatar {
+      width: 300px;
+      height: auto;
+    }
+  }
+  .specialist:nth-child(2n){
+    flex-direction: row;
   }
 }
+

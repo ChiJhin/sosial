@@ -1,4 +1,16 @@
 .about {
+  &__info{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    &-description:not(:last-child){
+      margin-bottom: 20px;
+    }
+    &-image-wrapper{
+      max-width: 400px ;
+    }
+  }
+
   background-color: $bgColor;
   color: $color;
 }

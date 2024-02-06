@@ -4,9 +4,12 @@
   justify-content: center;
   width: 100%;
   height: 400px;
-  background-color: $bgColor;
-  color: $color;
-  &__container {
-    text-align: center;
+  background-image: url('../img/Trudnoshchi.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: $labelColor;
+    &__container {
+      text-align: center;
   }
 }
