@@ -9,7 +9,12 @@
     padding-bottom: 20px;
   }
   &__nav-list,
-  &__specialists-list,
+  &__page-nav-list{
+    @include tablet {
+      display: flex;
+      gap: 10px;
+  }
+  }
   &__logo-wrapper {
     display: flex;
     gap: 10px;

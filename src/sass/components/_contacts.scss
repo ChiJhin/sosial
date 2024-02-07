@@ -1,7 +1,28 @@
 .contacts{
-    &__container{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
+    &__image{
+        margin: 0 auto;
+        @include mobile {
+            margin: 0;
+            
+        }
     }
+    &__container{
+        @include mobile {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        
+        @include tablet {
+            justify-content: space-between;
+            
+        }
+    }
+    &__description-box{
+        @include tablet {
+            display: flex;
+            flex-direction: row-reverse;
+            gap: 40px;
+        }
+    }
+    
 }

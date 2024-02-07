@@ -1,6 +1,9 @@
 .specialists{
   .specialist {
-    display: flex;
+    @include big-mobile {
+      display: flex;
+    }
+    
     flex-direction: row-reverse;
     &__avatar {
       width: 300px;
