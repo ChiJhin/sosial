@@ -13,7 +13,7 @@
   &__page-nav-list{
     display: flex;
     flex-direction: column;
-    @include tablet {
+    @include big-mobile {
       flex-direction: row;
       gap: 10px;
   }
@@ -40,11 +40,12 @@
   list-style: none;
 }
 
-@media (max-width: 767px) {
+@include max-big-mobile {
   .menu {
     display: none;
   }
 }
+
 
 .menu .link {
   padding: 10px;
@@ -71,11 +72,12 @@
   outline: none;
 }
 
-@media (min-width: 768px) {
+@include tablet {
   .menu-toggle {
     display: none;
   }
 }
+
 
 .menu-toggle:hover,
 .menu-toggle:focus {
