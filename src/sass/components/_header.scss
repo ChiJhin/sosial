@@ -9,8 +9,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  &__nav-list,
-  &__page-nav-list{
+  &__nav-list{
     display: flex;
     flex-direction: column;
     @include big-mobile {
@@ -47,18 +46,12 @@
 }
 
 
-.menu .link {
-  padding: 10px;
-  color: inherit;
-  text-decoration: none;
-}
-
 .menu .link:hover,
 .menu .link:focus {
   text-decoration: underline;
 }
 
-.menu-toggle {
+.menu-btn {
   min-height: 40px;
   min-width: 40px;
   display: flex;
@@ -73,14 +66,14 @@
 }
 
 @include tablet {
-  .menu-toggle {
+  .menu-btn {
     display: none;
   }
 }
 
 
-.menu-toggle:hover,
-.menu-toggle:focus {
+.menu-btn:hover,
+.menu-btn:focus {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -101,10 +94,10 @@
   display: flex
 }
 
-.menu-container .menu-toggle {
+.menu-container .menu-btn {
   position: absolute;
   top: 20px;
-  right: 34px;
+  right: 30px;
   color: #fff;
 }
 

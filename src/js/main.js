@@ -3,8 +3,8 @@ import '../sass/main.scss';
 import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 
 
-const pageNav = document.querySelector('.header__page-nav');
-const pageNavList = document.querySelector('.header__page-nav-list');
+const pageNav = document.querySelector('.hero__page-nav');
+const pageNavList = document.querySelector('.hero__page-nav-list');
 const toHome = document.getElementById('to-home');
 const menu = document.getElementById('menu')
 console.log(toHome);

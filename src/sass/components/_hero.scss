@@ -12,4 +12,12 @@
     &__container {
       text-align: center;
   }
+  &__page-nav-list{
+    display: flex;
+    flex-direction: column;
+    @include big-mobile {
+      flex-direction: row;
+      gap: 10px;
+  }
+  }
 }
