@@ -3,20 +3,27 @@
     <div class="header__logo-wrapper">
       <a class="header__logo" href="/index.html">Логотип</a>
       <div class="header__page-nav">
-        <p class="header__page-nav-description">Навігація по сторінці</p>
         <ul class="header__page-nav-list">
-          <li class="header__page-nav-item">
-            <a href="#specialists">Спеціалісти</a>
-          </li>
+          <li class="header__page-nav-item"><a href="#specialists">Спеціалісти</a></li>
           <li class="header__page-nav-item"><a href="#about">Про нас</a></li>
           <li class="header__page-nav-item"><a href="#contacts">Контакти</a></li>
         </ul>
       </div>
       <a href="#up">Вгору</a>
     </div>
-    <nav class="header__nav" >
-      <p class="header__nav-description">Навігація по сайту</p>
-      <ul class="header__nav-list" id="menu-list">
+    <nav class="header__nav " >
+      <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg
+          class="header__nav-menu-icon icon"
+          >
+          <use href="./img/icons.svg#menu"></use>
+          </svg>
+        </button>
+      <ul class="header__nav-list menu" id="menu">
         <li class="header__nav-item" id="to-home">
           <a href="/index.html">На головну</a>
         </li>
